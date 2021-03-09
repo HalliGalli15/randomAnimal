@@ -9,6 +9,16 @@ They are three different apis who are used in this project.
 
 Tests and Lint are disabled/removed from this project, to keep it clean and simple.
 
+## Progress
+
+- [x] About-Page
+- [x] CatApiService
+- [x] DogApiService
+- [x] Cat-Component
+- [ ] Cat-Customisation
+- [ ] Dog-Component
+- [ ] Dog-Customisation
+
 
 ## Development server
 

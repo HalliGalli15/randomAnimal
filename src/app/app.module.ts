@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
@@ -7,8 +8,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { RandomCatComponent } from './components/random-cat/random-cat.component';
 import { AboutPageComponent } from './components/about-page/about-page.component';
+import { RandomCatComponent } from './components/random-cat/random-cat.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { AboutPageComponent } from './components/about-page/about-page.component
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

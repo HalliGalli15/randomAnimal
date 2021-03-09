@@ -1,7 +1,20 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+import { AboutPageComponent } from './components/about-page/about-page.component';
+import { RandomCatComponent } from './components/random-cat/random-cat.component';
+
+const routes: Routes = [
+  {
+    path: '', component: AboutPageComponent
+  },
+  {
+    path: 'cat', component: RandomCatComponent
+  },
+  {
+    path: 'about', component: AboutPageComponent
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

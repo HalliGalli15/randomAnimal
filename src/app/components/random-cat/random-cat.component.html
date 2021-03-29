@@ -1,7 +1,6 @@
 <div class="content" *ngIf="cat.url != ''">
     <div class="introduction">
-        <p>Press the button to recieve ur new Cat-Picture. Edit ur prefferences via the settings button.</p>
-        
+        <h1>It's time to satisfy ur need of cats</h1>
     </div>
     <div class="img">
         <img [hidden]="loadingImage" (load)="onLoadImage()" src="{{ cat.url }}" />
@@ -15,5 +14,3 @@
         </div>
     </div>
 </div>
-
-

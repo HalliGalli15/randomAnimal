@@ -7,6 +7,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MdoButtonModule, NtkmeButtonModule } from '@ctrl/ngx-github-buttons';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -29,6 +30,8 @@ import { RandomCatComponent } from './components/random-cat/random-cat.component
     HttpClientModule,
     MatCardModule,
     MatProgressSpinnerModule,
+    NtkmeButtonModule,
+    MdoButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
